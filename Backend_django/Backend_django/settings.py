@@ -79,8 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': 'mdb-test.c6vunyturrl6.us-west-1.rds.amazonaws.com',
         'PORT': '3306',
-        'USER': 'bsale_test',
-        'PASSWORD': 'bsale_test',
+        
         'NAME': 'bsale_test',
         'OPTIONS':{
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
